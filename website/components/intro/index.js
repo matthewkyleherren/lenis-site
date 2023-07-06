@@ -73,9 +73,9 @@ export const Title = ({ className }) => {
 
   return (
     <div className={className}>
-      <LNS fill={'var(--pink)'} />
+      <LNS fill={'var(--yellow)'} />
       <EI
-        fill={'var(--pink)'}
+        fill={'var(--yellow)'}
         className={cn(introOut && s.translate, s.mobile)}
       />
     </div>

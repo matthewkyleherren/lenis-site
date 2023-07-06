@@ -21,7 +21,7 @@
     left: 50%;
     height: 100vw;
     width: 200vw;
-    background: radial-gradient(var(--pink), var(--pink-transparent) 70%);
+    background: radial-gradient(var(--yellow), var(--pink-transparent) 70%);
     // background: linear-gradient(to top, var(--pink), var(--pink-transparent));
     transform: translateX(-50%) translateY(50vh);
     opacity: 0.5;
@@ -181,7 +181,7 @@ $intro-duration: 2050ms;
         top: 0;
         height: 100%;
         width: desktop-vw(2px);
-        background-color: var(--pink);
+        background-color: var(--yellow);
         animation: scale 4s infinite;
         animation-play-state: paused;
         transform-origin: 50% 0;
